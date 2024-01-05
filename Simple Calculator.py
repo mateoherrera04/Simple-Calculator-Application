@@ -1,18 +1,14 @@
 #Last Editor: Mateo Herrera 01/02/2024
 
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import *
-import sys
-import operator
-
-app = QApplication(sys.argv)
-
-
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
+import sys
 
+import operator
+
+app = QApplication(sys.argv)
 
 #Node Class- all items such as operations and numbers
 class Node:
